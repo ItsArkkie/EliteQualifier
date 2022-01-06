@@ -29,7 +29,7 @@ To test the project:
 
 2. Check the results
 
-3. Submit report (Owner)
+3. Submit report (Developer)
 
 ### Any optional sections
 
