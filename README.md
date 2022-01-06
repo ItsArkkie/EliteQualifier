@@ -22,6 +22,14 @@ Just load it into replit and run (not for your life, run the program).
 
 You need to type your name, of course, and then you must choose an emotion word (good, sad, angry, tired, hungry, unknown). Once each is selected, it will ask multiple different questions. Just answer yes or no... please...
 
+## Test Plan
+To test the project:
+
+1. Run the test
+
+2. Check the results
+
 ### Any optional sections
 
 Feel free to suggest new emotions. When I'm bored, I can update it.
+
