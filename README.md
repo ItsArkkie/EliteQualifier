@@ -29,6 +29,8 @@ To test the project:
 
 2. Check the results
 
+3. Submit report (Owner)
+
 ### Any optional sections
 
 Feel free to suggest new emotions. When I'm bored, I can update it.
