@@ -1,50 +1,87 @@
+# Helpful imports
 import time
 import sys
 
-print("Hello! what is your name? (please message in lowercase)")
+# beginning questions
+print("Hello! what is your name?")
 userInput = input()
 
-print("Hello there " + userInput + ", how are you? (good, sad, angry, tired, hungry, unknown)")
+print("Hello there " + userInput + ", how are you? (good, sad, angry, tired, hungry, unknown)\n(for questions say yes or no)")
 moodInput = input()
 
+# mood arrays
 moodGood = [
   "good",
   "okay",
   "great",
   "terrific",
-  "happy"
+  "happy",
+  "Good",
+  "Okay",
+  "Great",
+  "Terrific",
+  "Happy"
 ]
 moodSad = [
   "bad",
   "sad",
-  "upset"
+  "upset",
+  "Bad",
+  "Sad",
+  "Upset"
 ]
 moodAngry = [
   "angry",
-  "mad"
+  "mad",
+  "Angry",
+  "Mad"
 ]
 moodHungry = [
-  "hungry"
+  "hungry",
+  "Hungry"
 ]
 moodTired = [
   "tired",
-  "sleepy"
+  "sleepy",
+  "Tired",
+  "Sleepy"
 ]
 
 moodUnknown = [
-  "unknown"
+  "unknown",
+  "Unknown",
+  "I dont know",
+  "i dont know",
+  "I don't know",
+  "i don't know",
+  "idk",
+  "Idk",
+  "IDK"
 ]
 
-foodPics = [
-  ""
-  ""
-  ""
-  ""
-  ""
-]
+# Use of arrays
+if userInput in moodGood:
+  userInput = "good"
+
+if userInput in moodSad:
+  userInput = "sad"
+
+if userInput in moodAngry:
+  userInput = "angry"
+
+if userInput in moodTired:
+  userInput = "tired"
+
+if userInput in moodHungry:
+  userInput = "hungry"
+
+if userInput in moodUnknown:
+  userInput = "idk"
+
+# Moods / responses
 
 if(moodInput in moodGood):
-  print("I'm glad! Wanna hear a story? (answer yes or no)")
+  print("I'm glad! Wanna hear a story?")
   userInput = input()
   if("yes" in userInput):
     print("Once apon a time, there was a coder just like you, and they were in a good mood too!")
@@ -103,7 +140,7 @@ elif(moodInput in moodTired):
   time.sleep(2)
   print("Lets both go to sleep.")
   time.sleep(2)
-  print("Goodnight!")
+  print("Goodnight! o/")
   while True:
     time.sleep(2)
     print("  Z")
@@ -135,7 +172,9 @@ elif(moodInput in moodHungry):
     sys.exit()
 
 elif(moodInput in moodUnknown): 
-  print("That's alright. We dont always need to understand how we're feeling, just enjoy the moment.")
+  print("That's alright. We dont always need to understand how we're feeling")
+  time.sleep(3)
+  print("Go out there. Be in the moment")
   time.sleep(2)
   sys.exit()
   
